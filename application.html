@@ -1,0 +1,136 @@
+<html>
+  <head><meta charset="UTF-8">
+    <title>PSU Application</title>
+
+  </head>
+  <body bgcolor="ffa562">
+      <font face="Tahoma">
+        <div align="center">
+          <pre><h2>ใบสมัครคัดเลือกพนักงานมหาวิทยาลัยสงขลานครินทร์</h2></pre><br>
+          <h4>ตำแหน่ง <input type="text" size="20"><br>
+            คณะ/หน่วยงานที่สมัคร <input type="text" size="21"><br>
+            เงินเดือนที่ต้องการ <input type="text" size=""><br>
+            ลักษณะงานงาน <input name="work" type="radio" value="fulltime">
+            <label for="work"> Full Time <input name="work" type="radio" value="part time">Part Time</label></h4>
+          </div>
+              <p><fieldset style="width:80% ; margin:0px auto;"><legend><h4>1. ข้อมูลทั่วไป</h4></legend>
+                <label for="idno">เลขที่บัตรประชาชน </label>
+                <input type="text" name="idno"maxlenght="13"><br>
+                <label for="name">ชื่อ <input type="text" name="name"size="20"> นามสกุล <input type="text" size="20"></label><br>
+                <label for="sex">เพศ<input type="radio" name="sex"> ชาย<input type="radio" name="sex"> หญิง</label>
+                <label for="birthday">วัน/เดือน/ปีเกิด <input type="date" name="birthday"></label>
+                <label for="old">อายุ <input type="number" name="old" size="3"> ปี</label>
+                <label for="race">เชื่อชาติ <input type="text" name="race"></label>
+                <label for="nationality">สัญชาติ <input type="text" name="nationality"></label>
+              </fieldset><br>
+              <fieldset style="width:80% ; margin:0px auto;">
+                <legend><h4>2. สถานที่ที่ติดต่อได้สะดวก</h4><br></legend>
+                <lable for="home_number">บ้านเลขที่ <input type="text" size="5" name="home_number"></lable>
+                <label for="vilage_number">หมู่ที่ <input type="text" name="vilage_number" ></label>
+                <label for="alleyway">ตรอก/ซอย <input type="text" name="alleyway"></label>
+                <label for="road">ถนน <input type="text" name="road"></label><br>
+                <lebel for="canton">ตำบล <input type="text" name="canton"></label>
+                <label for="District">อำเภอ <input type="text" name="District"></label>
+                <label for="county">จังหวัด <input type="text" name="county"></label>
+                <lebel for="postcode">รหัสไปรษณีย์ <input type="text" name="postcode"></label><br>
+                <label for="phone">โทรศัพท์ <input type="text" name="phone"></label>
+                <lebel for="mail">E-mail <input type="text" name="mail"></label>
+              </fieldset><br>
+              <fieldset style="width:80% ; margin:0px auto;">
+                <legend><h4>3. วุฒิการศึกษา</h4><u><b>ปริญญาตรี</b></u><br></legend>
+                <label for="educational1">วุฒิการศึกษา <input type="text" name="educational1"></label>
+                <label for="Branch1">สาขาวิชา <input type="text" name="Branch1"></label>
+                <label for="Educational institution1">สถาบันการศึกษา <input type="text" name="Educational institution1"></label>
+                <label for="year1">สำเร็จ พ.ศ. <input type="text" name="year1"></label>
+                <label for="grade1">เกรดเฉลี่ย <input type="text" name="grade1"></label>
+                <br><u><b>ปริญญาโท</b></u><br>
+                <label for="educational2">วุฒิการศึกษา <input type="text" name="educational2"></label>
+                <label for="Branch2">สาขาวิชา <input type="text" name="Branch2"></label>
+                <label for="Educational institution2">สถาบันการศึกษา <input type="text" name="Educational institution2"></label>
+                <label for="year2">สำเร็จ พ.ศ. <input type="text" name="year2"></label>
+                <label for="grade2">เกรดเฉลี่ย <input type="text" name="grade2"></label>
+                <br><u><b>ปริญญาเอก</b></u><br>
+                <label for="educational3">วุฒิการศึกษา <input type="text" name="educational3"></label>
+                <label for="Branch3">สาขาวิชา <input type="text" name="Branch3"></label>
+                <label for="Educational institution3">สถาบันการศึกษา <input type="text" name="Educational institution3"></label>
+                <label for="year3">สำเร็จ พ.ศ. <input type="text" name="year3"></label>
+                <label for="grade3">เกรดเฉลี่ย <input type="text" name="grade3"></label>
+                <br><u><b>อื่นๆ</b></u><br>
+                <label for="educational4">วุฒิการศึกษา <input type="text" name="educational4"></label>
+                <label for="Branch4">สาขาวิชา <input type="text" name="Branch4"></label>
+                <label for="Educational institution4">สถาบันการศึกษา <input type="text" name="Educational institution4"></label>
+                <label for="year4">สำเร็จ พ.ศ. <input type="text" name="year4"></label>
+                <label for="grade4">เกรดเฉลี่ย <input type="text" name="grade4"></label>
+              </fieldset>
+              <fieldset style="width:80% ; margin:0px auto;">
+                <legend><h4>4. ประวัติการทำงาน เรียงตามลำดับครั้งสุดท้ายไปหาครั้งแรก</h4></legend>
+                <p><li>สถานที่ทำงานครั้งสุดท้าย <input type="text" name="place" size="25"></li></p>
+                <label for="Position1">ตำแหน่ง <input type="text" name="Position1" size="25"></label><br>
+                <label for="month1">ตั้งแต่เดือน <input type="text" name="month1" size="5"></label>
+                <label for="years1">ปี <input type="text" name="years1" size="5"></label>
+                <label for="month-1">ถึงเดือน <input type="text" name="month-1" size="5"></label>
+                <label for="years-1">ปี <input type="text" name="years-1" size="5"></label>
+                <label for="salary1">เงินเดือน <input type="text" name="salary1" size="9"> บาท</label><br>
+                <label for="why1">สาเหตุที่ออก <input type="text" name="why1" size="30"></label>
+                <p><li>สถานที่ทำงาน</li></p>
+                <label for="Position2">ตำแหน่ง <input type="text" name="Position2" size="25"></label><br>
+                <label for="month2">ตั้งแต่เดือน <input type="text" name="month2" size="5"></label>
+                <label for="years2">ปี <input type="text" name="years2" size="5"></label>
+                <label for="month-2">ถึงเดือน <input type="text" name="month-2" size="5"></label>
+                <label for="years-2">ปี <input type="text" name="years-2" size="5"></label>
+                <label for="salary2">เงินเดือน <input type="text" name="salary2" size="9"> บาท</label><br>
+                <label for="why2">สาเหตุที่ออก <input type="text" name="why2" size="30"></label>
+                <p><li>สถานที่ทำงาน</li></p>
+                <label for="Position3">ตำแหน่ง <input type="text" name="Position3" size="25"></label><br>
+                <label for="month3">ตั้งแต่เดือน <input type="text" name="month3" size="5"></label>
+                <label for="years3">ปี <input type="text" name="years3" size="5"></label>
+                <label for="month-3">ถึงเดือน <input type="text" name="month-3" size="5"></label>
+                <label for="years-3">ปี <input type="text" name="years-3" size="5"></label>
+                <label for="salary3">เงินเดือน <input type="text" name="salary3" size="9"> บาท</label><br>
+                <label for="why3">สาเหตุที่ออก <input type="text" name="why3" size="30"></label>
+              </fieldset>
+              <fieldset style="width:80% ; margin:0px auto;">
+                <legend><h4>5. ภาษา</h4></legend>
+                <p><label for="eng">ภาษาอังกฤษ</label><br>
+                <lable for="talk"><b>พูด</b></label> <input type="radio" name="talk" value="well">ดีมาก
+                <input type="radio" name="talk" value="good">ดี
+                <input type="radio" name="talk" value="soso">พอใช้<br>
+                <lable for="read"><b>อ่าน</b></label> <input type="radio" name="read" value="well">ดีมาก
+                <input type="radio" name="read" value="good">ดี
+                <input type="radio" name="read" value="soso">พอใช้<br>
+                <lable for="write"><b>เขียน</b></label> <input type="radio" name="write" value="well">ดีมาก
+                <input type="radio" name="write" value="good">ดี
+                <input type="radio" name="write" value="soso">พอใช้<br></p>
+                <label for="language">ภาษาอื่นๆ ระบุ <input type="text" name="language" size="10"><br></label>
+                <lable for="talk2"><b>พูด</b></label> <input type="radio" name="talk2" value="well2">ดีมาก
+                <input type="radio" name="talk2" value="good2">ดี
+                <input type="radio" name="talk2" value="soso2">พอใช้<br>
+                <lable for="read2"><b>อ่าน</b></label> <input type="radio" name="read2" value="well">ดีมาก
+                <input type="radio" name="read2" value="good2">ดี
+                <input type="radio" name="read2" value="soso2">พอใช้<br>
+                <lable for="write2"><b>เขียน</b></label> <input type="radio" name="write2" value="well">ดีมาก
+                <input type="radio" name="write2" value="good2">ดี
+                <input type="radio" name="write2" value="soso2">พอใช้<br>
+              </fieldset>
+              <fieldset style="width:80% ; margin:0px auto;">
+                <legend><h4>6. ความรู้ทางคอมพิวเตอร์ ระบุ</h4></legend>
+                <dd><textarea rows="10" cols="90"></textarea></dd>
+              </fieldset>
+              <fieldset style="width:80% ; margin:0px auto;">
+                <legend><h4>7. ผลงานทางวิชาการ ระบุ</h4></legend>
+                <dd><textarea rows="10" cols="90"></textarea></dd>
+              </fieldset>
+              <fieldset style="width:80% ; margin:0px auto;">
+                <legend><h4>8. ประสบการณ์พิเศษอื่นๆ ระบุ</h4></legend>
+                <dd><textarea rows="10" cols="90"></textarea></dd>
+              </fieldset>
+              <p><b>หมายเหตุ</b>:กรอกข้อมูลให้ได้รายละเอียดมากที่สุด เพื่อประโยชน์ของท่านเอง และสามารถแนบประวัติและเอกสารอื่นๆเพื่อใช้เป็นข้อมูลในการพิจารณาตัวท่านเพิ่มเติมพร้อมกับใบสมัครได้</p>
+              <div align="center">
+                <input name="register" type="submit" value="submit">
+              </div>
+            </p>
+
+      </font>
+
+    </body>
+</html>
